@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  text-align: right;
+  margin: 10px;
+  width: 50%;
+  display: inline-block;
+}
+
+aside {
+  width: 50%;
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+main {
+  width: 50%;
+  font-size: 14pt;
+  line-height: 22pt;
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+fieldset {
+  border: 2px solid #CC0000;
+}
+
+#button-container {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 7px;
+}
+
+.madlib-word {
+  padding: 2px;
+  background-color: #F6C900;
+}
